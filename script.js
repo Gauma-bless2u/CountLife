@@ -397,9 +397,7 @@ function clearIntervals() {
   }
 }
 
-// -------------------------------------------------------------
 // Draggable 1:1 Photo Frame Logic & Persistence
-// -------------------------------------------------------------
 
 function renderUserPhoto() {
   if (currentSettings && currentSettings.type === "event") {
