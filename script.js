@@ -400,11 +400,6 @@ function clearIntervals() {
 // Draggable 1:1 Photo Frame Logic & Persistence
 
 function renderUserPhoto() {
-  if (currentSettings && currentSettings.type === "event") {
-    if (userPhotoFrame) userPhotoFrame.style.display = "none";
-    return;
-  }
-
   const photoData = localStorage.getItem("countlife_user_photo");
   if (photoData) {
     userPhotoImg.src = photoData;

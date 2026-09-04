@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "CountLife",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimalist personal life and event deadline tracker.",
   "chrome_url_overrides": {
     "newtab": "index.html"
